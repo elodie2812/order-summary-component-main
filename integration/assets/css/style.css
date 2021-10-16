@@ -1,0 +1,102 @@
+/* Elements principaux */
+body {
+    width: 1440px;
+    margin: auto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%); 
+}
+
+.card {
+    width: 33%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );  
+}
+
+.hero {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+#width {
+    width: 60%;
+    margin: 10px auto;
+    color: gray;
+}
+
+.subscription {
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bold {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+#grey {
+    color: gray;
+}
+
+#blue-btn {
+    background-color: #4B00EA;
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+#blue-btn:hover {
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+
+#btn {
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
